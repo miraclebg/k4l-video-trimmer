@@ -397,7 +397,7 @@ public class K4LVideoTrimmer extends FrameLayout {
         setTimeVideo(0);
 
         if (mOnK4LVideoListener != null) {
-            mOnK4LVideoListener.onVideoPrepared();
+            mOnK4LVideoListener.onVideoPrepared(videoWidth, videoHeight);
         }
     }
 
